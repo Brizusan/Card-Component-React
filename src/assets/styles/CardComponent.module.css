@@ -1,0 +1,19 @@
+.card{
+  max-width: 45rem;
+}
+.card img{
+  object-fit: cover;
+}
+
+@media screen and (min-width:70rem){
+  .card{
+    max-width: 65rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    border-top-right-radius: 0.75rem;
+  }
+  .card img{
+    border-top-right-radius: 0;
+  }
+  
+}

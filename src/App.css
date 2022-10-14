@@ -1,0 +1,23 @@
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-size: 1.4rem;
+  font-family: 'Fraunces', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
+  background-color: #f2ebe3;
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  place-content: center;
+}
